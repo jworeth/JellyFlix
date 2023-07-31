@@ -126,6 +126,7 @@ span.material-icons.checkboxIcon.checkboxIcon-checked.check {
 }
 
 .osdControls .flex.flex-direction-row.align-items-center {
+  display: grid;
   grid-template-areas: "one two" "three three";
 }
 
@@ -218,7 +219,7 @@ div#itemDetailPage {
   position: relative;
   width: 60vw;
   background: transparent;
-  min-height: 25vh;
+  min-height: 70vh;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -2271,13 +2272,4 @@ div:not(.paperList) .listItem {
 
 .chapterCard .innerCardFooter > .cardText:last-child {
   float: right;
-}
-
-/* Spinner */
-
-.mdl-spinner__layer.mdl-spinner__layer-1.mdl-spinner__layer-1-active,
-.mdl-spinner__layer.mdl-spinner__layer-2.mdl-spinner__layer-2-active, 
-.mdl-spinner__layer.mdl-spinner__layer-3.mdl-spinner__layer-3-active, 
-.mdl-spinner__layer.mdl-spinner__layer-4.mdl-spinner__layer-4-active {
-  border-color: var(--accent);
 }
